@@ -103,6 +103,7 @@ public class Startup
                 options.SignedOutRedirectUri = config.SignedOutRedirectUri;
                 options.TokenValidationParameters.NameClaimType = "name";
                 options.TokenValidationParameters.ValidateIssuer = false;
+                options.RequireHttpsMetadata = false;
             })
             .AddCookie();
 

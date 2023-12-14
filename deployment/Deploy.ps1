@@ -179,8 +179,8 @@ if ($sql_exists)
 if($LogoURLpng) { 
     Write-Host "📷 Logo image provided"
 	Write-Host "   🔵 Downloading Logo image file"
-    Invoke-WebRequest -Uri $LogoURLpng -OutFile "../src/CustomerSite/wwwroot/contoso-sales.png"
-    Invoke-WebRequest -Uri $LogoURLpng -OutFile "../src/AdminSite/wwwroot/contoso-sales.png"
+    Invoke-WebRequest -Uri $LogoURLpng -OutFile "../src/CustomerSite/wwwroot/solo-logo.png"
+    Invoke-WebRequest -Uri $LogoURLpng -OutFile "../src/AdminSite/wwwroot/solo-logo.png"
     Write-Host "   🔵 Logo image downloaded"
 }
 

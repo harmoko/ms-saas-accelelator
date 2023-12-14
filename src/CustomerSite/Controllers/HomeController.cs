@@ -199,7 +199,7 @@ public class HomeController : BaseController
             SubscriptionResult subscriptionDetail = new SubscriptionResult();
             SubscriptionResultExtension subscriptionExtension = new SubscriptionResultExtension();
 
-            this.applicationConfigService.SaveFileToDisk("LogoFile", "contoso-sales.png");
+            this.applicationConfigService.SaveFileToDisk("LogoFile", "solo-logo.png");
             this.applicationConfigService.SaveFileToDisk("FaviconFile", "favicon.ico");
 
             if (this.User.Identity.IsAuthenticated)
